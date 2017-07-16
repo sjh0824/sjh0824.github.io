@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <meta content="email=no" name="format-detection">
+    <title>国广双创发布邀请函</title>
+    <!--重置样式-->
+    <style type="text/css">
+        body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,button,th,td{margin:0;padding:0;}
+        h1,h2,h3,h4,h5,h6{font-size:100%;}
+        ul,dl,ol{list-style:none;}
+        img,fieldset,input[type="submit"]{border:0 none;}
+        img{display:inline-block;overflow:hidden;vertical-align:top;}
+        em{font-style:normal;}
+        strong{font-weight:normal;}
+        table{border-collapse:collapse;border-spacing:0;}
+        button,input[type="button"]{cursor:pointer;border:0 none;}
+        menu{margin:0;padding:0;}
+        body{-webkit-user-select:none;-webkit-text-size-adjust:none!important;font-family:Helvetica;}
+        input[type="number"]{-webkit-user-select:text;}
+        a,button,input,img{-webkit-touch-callout:none;}
+        input,select,textarea{outline:none;}
+        html,body{height:100%;font-size:32px;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+        a{text-decoration:none;}
+    </style>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script type="text/javascript">
+        wx.config({
+            debug: false,
+            appId: 	'wxa0be1faac8cfebfd',
+            timestamp: 1500132520,
+            nonceStr: '383954',
+            signature: '53c08452e213b309ffab3bf9a9471696101fd7ad',
+            jsApiList: [
+                'onMenuShareTimeline',
+                'onMenuShareAppMessage',
+                'onMenuShareQQ',
+                'onMenuShareWeibo',
+                'onMenuShareQZone'
+            ]
+        });
+    </script>
+    <script type="text/javascript">
+        function wechatShare(url, title, desc, icon) {
+            wx.ready(function () {
+                wx.onMenuShareTimeline({
+                    title: title,
+                    link: url,
+                    imgUrl: icon,
+                    success: function () {
+                    },
+                    cancel: function () {
+                    }
+                });
+                wx.onMenuShareAppMessage({
+                    title: title,
+                    desc: desc,
+                    link: url,
+                    imgUrl: icon,
+                    type: '',
+                    dataUrl: '',
+                    success: function () {
+                    },
+                    cancel: function () {
+                    }
+                });
+                wx.onMenuShareQQ({
+                    title: title,
+                    desc: desc,
+                    link: url,
+                    imgUrl: icon,
+                    success: function () {
+                    },
+                    cancel: function () {
+                    }
+                });
+                wx.onMenuShareWeibo({
+                    title: title,
+                    desc: desc,
+                    link: url,
+                    imgUrl: icon,
+                    success: function () {
+
+                    },
+                    cancel: function () {
+                    }
+                });
+                wx.onMenuShareQZone({
+                    title: title,
+                    desc: desc,
+                    link: url,
+                    imgUrl: icon,
+                    success: function () {
+                    },
+                    cancel: function () {
+                    }
+                });
+                wx.error(function (res) {
+                    if(res.errMsg){
+                        wx.hideOptionMenu();
+                    }
+                });
+            });
+        }
+    </script><link rel="stylesheet" href="./css/page.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/h.css">
+    <script type="text/javascript" src="./js/flexible.js"></script>
+    <script type="text/javascript">
+        windowShare();
+        function windowShare(){
+            wechatShare('http://invitation.pengsuplus.cn/', '双创大厦战略发布邀请函', '启·创未来――双创大厦战略发布暨宝袋股份与国广东方签约仪式', 'http://invitation.pengsuplus.cn/logo.jpeg');
+        }
+    </script>
+</head>
+<body>
+<!--
+  需要图片预加载的元素加上preload类,并且将src改写为data-src,例如
+  <img data-src="../1.png" >
+  而且,背景图也使用img标签重新写一遍, 并且使用display: none隐藏
+  <img data-src="../background.png" style="display: none">
+-->
+<div class="pageContainer">
+    <div class="page page0">
+        <div class="logo3 navshow">
+            <img class="preload" data-src="./image/page0_1.png">
+        </div>
+        <p style="display: none">loading</p>
+        <div class="text" style="display: none"><span id='progress'>0</span>%</div>
+        <img style="display: none" class="preload gesture" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/btn.png">
+    </div>
+    <div class="page page1" style="">
+        <img data-src="./image/left1.png" style="display: none">
+        <div class="logo1">
+            <img class="preload" data-src="./image/page1_1.png" >
+        </div>
+        <div class="logo2">
+            <img class="preload" data-src="./image/nav1.png">
+        </div>
+        <div class="logo3">
+            <img class="preload" data-src="./image/nav2.png">
+        </div>
+        <div class="zi-box">
+            <img class="preload" data-src="./image/page1_2.png">
+        </div>
+        <img style="display: none" class="preload gesture" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/btn.png">
+    </div>
+    <div class="page page2" style="">
+        <img data-src="./image/left2.png" style="display: none">
+        <div class="box">
+            <img class="preload img2 hangzhou_gif" data-src="./image/page2_1.png">
+        </div>
+        <div class="box1">
+            <img class="preload img2 hangzhou_gif1" data-src="./image/page2_2.png">
+        </div>
+        <div class="box2">
+            <img class="preload img2 hangzhou_gif2" data-src="./image/page2_3.png">
+        </div>
+        <div class="ta1">
+            <img class="preload img1" data-src="./image/page2_4.png">
+        </div>
+        <div class="ta2">
+            <img class="preload img1" data-src="./image/page2_5.png">
+        </div>
+        <img style="display: none" class="preload gesture" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/btn.png">
+    </div>
+    <div class="page page3" style="">
+        <img class="preload" data-src="./image/left2.png" style="display: none">
+        <div class="ta1">
+            <img class="preload img2" data-src="./image/page3_2.png">
+        </div>
+        <img style="display: none" class="preload gesture" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/btn.png">
+    </div>
+    <div class="page page4" style="">
+        <img class="preload" data-src="./image/left3.png" style="display: none">
+        <div class="text-box">
+            <img class="preload" data-src="./image/page3_1.png" >
+        </div>
+        <div class="city">
+            <img class="preload" data-src="./image/location.png" >
+        </div>
+        <img style="display: none" class="preload gesture" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/btn.png">
+    </div>
+
+    <div class="page page9" style="">
+        <img style="display:none" class="preload" data-src="./image/left5.png">
+        <div class="text">
+            <img class="preload " data-src="./image/page4_5.png">
+        </div>
+        <div class="text1">
+            <img class="preload" data-src="./image/page4_6.png">
+        </div>
+        <img class="preload gesture gesture-down" style='display:none' data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/7-gesture.png">
+    </div>
+    <div class="page page10" style="">
+        <img style="display:none" class="preload" data-src="./image/left4.png">
+        <div class="form">
+            <div class="form-bk">
+                <img class="preload form1" data-src="./image/page6_1.png">
+                <!--<img class="preload form2" data-src="./image/page5_2.png">-->
+                <img class="preload bt" data-src="./image/submit.png">
+            </div>
+            <div class="form-input">
+                <input class="name" name="name" type="text">
+                <input class="phone" name="phone" type="number">
+                <input class="tel" name="tel" type="text">
+                <input class="submit" type="button">
+            </div>
+        </div>
+        <img class="preload" style="display: block;margin: 2.5rem auto 0;width: 6rem;" data-src="./image/page6_2.png">
+        <a href="http://www.baodaihjg.com" class='link'></a>
+    </div>
+    <div class="music" style="display: none">
+        <img id="musicIcon" class="preload" data-src="http://cdn.pengsuplus.cn/invitation/static/h5/img/music.png">
+        <audio id="music" class="preload" src="Never.mp3" data-statu="0" loop preload></audio>
+    </div>
+</div>
+<!--不要修改-->
+<script>
+    document.body.addEventListener('touchmove', function (event) {
+        event.preventDefault();
+    })
+</script>
+<script type="text/javascript" src="./js/jquery3.js"></script>
+<script type="text/javascript" src="./js/page2.js"></script>
+
+<!--下面是更改内容-->
+<script>
+    $(function () {
+        /*
+         preload 插件
+         onStart(function), 加载开始的回调函数
+         onProgress(function), 加载中的回调函数, 接收两个参数cur, total, 当前加载的资源序号和总资源数
+         onEnd(function), 加载结束的回调函数
+         */
+        /*
+         pageInit 插件
+         toNext(function), 触发动作自定义,滑动到下一页, 并触发回调函数
+         moveUp(function), 手势上滑到下一页, 并触发回调函数
+         */
+        var init = new Page({
+            width: 720,     // 设计稿宽度
+            height: 1280,   // 设计稿高度
+            fitMode: 'auto',
+            slideMode: 'Y',
+            audio: document.getElementById('music'),
+            preload: {
+                onStart: function () {
+
+                },
+                onProgress: function (cur, total) {
+                    var num=cur/total;
+                    var num=Math.floor(100*num)
+                    $("#progress").html(num)
+                },
+                onEnd: function (pageInit) {
+                    $("#progress").html(100);
+                    $('.page0 .gesture').show();
+                    $('.page0 .gesture').addClass('gesture-down-liju');
+                    pageInit.run()
+                }
+            },
+            onPageChangedEnd: function (pageInit, page) {  //指定页码运行函数, pageInit为插件对象,可以使用内部方法, page为页码,从0开始
+                if (page == 1) {
+                    $('.music').css('display', 'block')
+                    var music = $('#music')
+                    music[0].play()
+                    var baseTime = 0
+                    var parent = $('.page1')
+                    var gif = parent.find('.gif1')
+                    var src = gif.attr('data-src')
+                    gif.attr('src',src)
+                    var class1 = parent.find(".logo2")
+                    var class2 = parent.find(".logo1,.logo3")
+                    var class5 = parent.find(".zi-box")
+                    var class6 = $('body')
+                    var class7 = parent.find(".gesture")
+                    setTimeout(function(){
+                        class1.addClass('show1')
+                    },baseTime)
+                    setTimeout(function(){
+                        class2.addClass('show1')
+                    },600 + baseTime)
+                    setTimeout(function(){
+                        class5.addClass('anim-knock');
+                    },1800 + baseTime)
+                    setTimeout(function(){
+                        class6.addClass('anim-shake');
+                    },2820 + baseTime)
+                    setTimeout(function(){
+                        class7.show().addClass('gesture-down-liju')
+                    },2100 + baseTime)
+                }
+                if (page == 2) {
+                    var src = $('.hangzhou_gif').attr('data-src')
+                    $('.hangzhou_gif').attr('src',src)
+                    $('body').removeClass('anim-shake');
+                    setTimeout(function(){
+                        $(".box .img2").addClass('show')
+                    },200)
+                    setTimeout(function(){
+                        $(".box1 .img2").addClass('show')
+                    },300)
+                    setTimeout(function(){
+                        $(".box2 .img2").addClass('show')
+                    },400)
+                    setTimeout(function(){
+                        $(".ta1").addClass('fadeInTop')
+                    },1000)
+                    setTimeout(function(){
+                        $(".ta2").addClass('fadeInTop')
+                    },1300)
+                    setTimeout(function(){
+                        $(".page2 .gesture").show().addClass('gesture-down-liju')
+                    },1000 )
+                }
+                if (page == 3) {
+                    $('body').removeClass('anim-shake');
+                    setTimeout(function(){
+                        $(".ta1 .img2").addClass('show')
+                    },400)
+                    setTimeout(function(){
+                        $(".page3 .gesture").show().addClass('gesture-down-liju')
+                    },1000 )
+                }
+                if (page == 4) {
+                    var src = $('.gif3').attr('data-src')
+                    setTimeout(function(){
+                        $('.city').addClass('show')
+                    },200 )
+                    setTimeout(function(){
+                        $('#destination').addClass('leave')
+                    },800)
+                    setTimeout(function(){
+                        $(".page4 .gesture").show().addClass('gesture-down-liju')
+                    },1000 )
+                }
+                if (page == 5){
+                    var parent = $('.page9')
+                    setTimeout(function(){
+                        $('.text').addClass('show')
+                    },200 )
+                    setTimeout(function(){
+                        $('.text1').addClass('show')
+                    },400 )
+                    setTimeout(function(){
+                        parent.find('.gesture').show().css('display', 'block')
+                    },500)
+                }
+            }
+        })
+        $('.submit').on('click', function () {
+            $('.submit').attr('disabled', 'disabled')
+            var name = $('.name').val();
+            var phone = $('.phone').val();
+            var type = $('input[type=radio]:checked').val();
+            if (name == '' || phone == '' || !type) {
+                alert('请填写正确的信息')
+                $('.submit').removeAttr('disabled')
+                return
+            }
+
+            $.post("http://invitation.pengsuplus.cn/welcome/add", {name: name, telephone: phone, type: type}, function (data) {
+                var code = data.code
+                if (code == 1) {
+                    alert('提交成功, 感谢您的参与')
+                } else {
+                    alert(data.desc)
+                    $('.submit').removeAttr('disabled')
+                }
+            })
+        })
+        /*背景音乐*/
+        var music = $('#music')
+        var musicIcon = $('#musicIcon')
+        $('body').one('touchstart', function () {
+            if( music.attr('data-statu') == 0) {
+                musicIcon.addClass('music-play')
+                music.attr('data-statu', 1)
+                music[0].volume = 0.5
+                music[0].play()
+                addVolume()
+            }
+        })
+
+        musicIcon.on('touchstart', function () {
+            if( music.attr('data-statu') == 0) {
+                musicIcon.addClass('music-play')
+                music.attr('data-statu', 1)
+                music[0].volume = 0.5
+                music[0].play()
+                addVolume()
+            } else {
+                musicIcon.removeClass('music-play')
+                music.attr('data-statu', 0)
+                music[0].pause()
+            }
+        })
+        var volTimer = null
+        function addVolume() {
+            if (music[0].volume >= 0.9) {
+                music[0].volume = 1
+                clearTimeout(volTimer)
+                return
+            }
+            music[0].volume+=0.1
+            setTimeout(addVolume, 100)
+        }
+    })
+
+
+</script>
+<!--<script type="text/javascript" src="./js/fish.js"></script>-->
+</body>
+</html>
